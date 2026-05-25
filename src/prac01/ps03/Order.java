@@ -6,9 +6,9 @@ class Order {
 	Menu[] menus;
 
 	// 생성자
-	public Order(int i, Menu[] arr) {
-		orderNum = i;
-		menus = arr;
+	public Order(int orderNum, Menu[] menus) {
+		this.orderNum = orderNum;
+		this.menus = menus;
 	}
 
 	// 메소드(인스턴스 메소드)
